@@ -1,0 +1,117 @@
+      
+
+
+GUVI TASK-1 ASSIGNMENT
+
+1Q)
+   a) What is the difference between statically typed and dynamically typed languages?
+
+     Ans:-Statically-Typed Languages
+          We call a language “statically-typed” if it follows type checking during compilation. 
+          So, every detail about the variables and all the data types must be known before we do the compiling process.
+          In this type of language, once a variable is assigned a type, it can’t be assigned to some other variable of a different type.
+          If we try to do so, the compiler will raise some errors, and we need to fix them. Hence, for a declared variable, the data type is fixed.
+          Some examples of statically-typed languages are Java, C, C++, C#, Swift, Scala, Kotlin, Fortran, Pascal, Rust, Go, COBOL, etc.
+   
+          Dynamically-typed Languages
+          We call a language “dynamically typed” if type checking takes place while the program runs (run-time).
+          In this type of language, there is no need to specify the data type of each variable while writing code.
+          It means that you can write pretty quickly since you do not have to specify types every time. Some languages do allow you to provide type information but do not require it.
+         Most of the modern programming languages are dynamically typed.
+         Some examples of dynamically-typed languages are Python, Javascript, Ruby, Perl, PHP, R, Dart, Lua, Objective-C, etc.
+
+   b) What is the Difference Between Scripting and Programming Languages?
+    Ans:-Scripting languages help in automating various software apps, web pages in a browser, shell usage of an OS (operating system), etc.
+         The scripting languages like VBScript, Perl, Javascript, etc., do not require compilation, and they have less access to any computer’s native abilities.
+         It is because these rather run on an original programming language’s subset.
+         An example here could be that the Javascript won’t have the ability to access your file system.
+
+       ->One needs to compile the programming languages to machine code so as to run them on the hardware of an underlying OS (operating system).
+         A user needs to deploy a certain Integrated Development Environment (IDE) for using programming languages.
+         A programmer needs to provide an instruction set for the computers for achieving certain goals.
+         One can also implement certain algorithms by writing the programs.
+
+    c) Programming Paradigms?
+    Ans:-A programming paradigm is a style, or “way,” of programming.
+         Some languages make it easy to write in some paradigms but not others.
+         Some Common Paradigm
+
+         1-Imperative: Programming with an explicit sequence of commands that update state.
+         2-Declarative: Programming by specifying the result you want, not how to get it.
+         3-Structured: Programming with clean, goto-free, nested control structures.
+         4-Procedural: Imperative programming with procedure calls.
+         5-Functional (Applicative): Programming with function calls that avoid any global state.
+         6-Function-Level (Combinator): Programming with no variables at all.  
+         7-Object-Oriented: Programming by defining objects that send messages to each other.
+
+
+2Q)   Write a blog on Difference between HTTP1.1 vs HTTP2
+  Ans:-As opposed to HTTP/1.1, which keeps all requests and responses in plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format,
+       while still maintaining HTTP semantics, such as verbs, methods, and headers.
+
+     HTTP/1.1:-
+     Developed by Timothy Berners-Lee in 1989 as a communication standard for the World Wide Web,
+     HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server. 
+     In this process, a client sends a text-based request to a server by calling a method like GET or POST. In response, the server sends a resource like an HTML page back to the client.
+
+     For example, let’s say you are visiting a website at the domain www.example.com. When you navigate to this URL,
+     the web browser on your computer sends an HTTP request in the form of a text-based message
+
+     HTTP/2:-
+     HTTP/2 began as the SPDY protocol, developed primarily at Google with the intention of reducing web page load latency by using techniques 
+     such as compression, multiplexing, and prioritization. 
+     This protocol served as a template for HTTP/2 when the Hypertext Transfer Protocol working group httpbis of the IETF (Internet Engineering Task Force) put the standard together,
+     culminating in the publication of HTTP/2 in May 2015.
+     From the beginning, many browsers supported this standardization effort, including Chrome, Opera, Internet Explorer, and Safari. Due in part to this browser support, 
+     there has been a significant adoption rate of the protocol since 2015, with especially high rates among new sites.
+
+
+3Q)   Write a blog about objects and its internal representation in Javascript
+   Ans:-JavaScript is designed on a simple object-based paradigm.
+       An object is a collection of properties, and a property is an association between a name (or key) and a value.
+       A property’s value can be a function, in which case the property is known as a method.
+       A JavaScript object has properties associated with it. 
+       A property of an object can be explained as a variable that is attached to the object.
+       Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. 
+       The properties of an object define the characteristics of the object. We can access the properties of an object with a simple dot-notation:
+       objectName.propertyName
+       Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. 
+       You can define a property by assigning it a value.
+
+       For example, let’s create an object named myCar and give it properties named make, model, and year as follows:
+        var myCar = new Object();
+        myCar.make = ‘Ford’;
+        myCar.model = ‘Mustang’;
+        myCar.year = 1969;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
